@@ -6,5 +6,15 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-}
+  siteMetadata: {
+    title: "English?! Easy...",
+    description:
+      "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior",
+    siteUrl: "https://www.englisheasyfm.com.br",
+  },
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+  ],
+};
