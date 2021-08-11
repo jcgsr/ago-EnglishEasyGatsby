@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-englisheasyfm",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Site sobre tópicos gramaticais da língua inglesa referentes ao Ensino Fundamental Maior",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,8 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
     "gatsby": "^3.11.0",
     "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-mdx": "^2.11.0",
     "gatsby-plugin-sharp": "^3.11.0",
     "gatsby-source-filesystem": "^3.11.0",
     "gatsby-transformer-sharp": "^3.11.0",

@@ -116,6 +116,14 @@
   flex-direction: column;
   color: var(--secondary) !important;
 }
+
+.error-page {
+  text-align: center;
+  padding: 2rem;
+}
+.error-page h3 {
+  margin-bottom: 2rem;
+}
 /* CLASSES */
 /* TAGS */
 nav {

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { RiArrowDownSFill, RiMenuFill, RiCloseFill } from "react-icons/ri";
-import { Link } from "gatsby";
-import nono from "../constants/nono.js";
-function Navbar() {
+import { Link, graphql } from "gatsby";
+import nonoDados from "../constants/nonoDados.js";
+function Navbar({ data }) {
   const [showLinks, setShowLinks] = useState(false);
   return (
     <nav>
@@ -21,19 +21,16 @@ function Navbar() {
             8º ano <RiArrowDownSFill />
           </li>
           <li className="dropdown">
-            9º ano <RiArrowDownSFill cclassName="dropdown-trigger" />
+            9º ano <RiArrowDownSFill className="dropdown-trigger" />
             <div className="dropdown-ct">
-              {nono.map(item => {
+              {nonoDados.map(item => {
                 const { id, url, text } = item;
                 return (
-                  <li key={id}>
+                  <span key={id}>
                     <Link to={url}>{text}</Link>
-                  </li>
+                  </span>
                 );
               })}
-              <a href="">sdfgsdfgsdggfg</a>
-              <a href="">sdfg</a>
-              <a href="">sdg</a>
             </div>
           </li>
         </ul>{" "}
@@ -45,4 +42,13 @@ function Navbar() {
   );
 }
 
+const query = graphql`
+  {
+    allFile {
+      nodes {
+        name
+      }
+    }
+  }
+`;
 export default Navbar;
