@@ -2,12 +2,11 @@ import React from "react";
 
 import Layout from "../components/Layout";
 
-import brEFlag from "../assets/img/brEflag.jpg";
 import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
   return (
     <Layout>
-      <h1>English Easy</h1>
+      <h1>English?! Easy...</h1>
       <section id="site-desc">
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
