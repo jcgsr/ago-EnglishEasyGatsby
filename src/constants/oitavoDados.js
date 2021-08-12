@@ -31,6 +31,11 @@ const oitavoDados = [
     url: "/anos/oitavo/prefixsufix",
     text: "Prefixes and Sufixes",
   },
+  {
+    id: 7,
+    url: "/anos/oitavo/quantifiers",
+    text: "Quantifiers",
+  },
 ];
 
 export default oitavoDados;
