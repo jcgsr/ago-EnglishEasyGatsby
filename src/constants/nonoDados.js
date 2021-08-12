@@ -3,12 +3,12 @@ import React from "react";
 const nonoDados = [
   {
     id: 1,
-    url: "/nono/modals",
+    url: "/anos/nono/modals",
     text: "Modals",
   },
   {
     id: 2,
-    url: "/nono/conditionals",
+    url: "/anos/nono/conditionals",
     text: "Conditionals",
   },
 ];

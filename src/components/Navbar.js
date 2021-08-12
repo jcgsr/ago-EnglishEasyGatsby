@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { RiArrowDownSFill, RiMenuFill, RiCloseFill } from "react-icons/ri";
 import { Link, graphql } from "gatsby";
 import nonoDados from "../constants/nonoDados.js";
-function Navbar({ data }) {
+import oitavoDados from "../constants/oitavoDados.js";
+function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
   return (
     <nav>
@@ -17,11 +18,21 @@ function Navbar({ data }) {
           <li>
             7º ano <RiArrowDownSFill />
           </li>
-          <li>
+          <li className="dropdown">
             8º ano <RiArrowDownSFill />
+            <div className="dropdown-ct">
+              {oitavoDados.map(item => {
+                const { id, url, text } = item;
+                return (
+                  <span key={id}>
+                    <Link to={url}>{text}</Link>
+                  </span>
+                );
+              })}
+            </div>
           </li>
           <li className="dropdown">
-            9º ano <RiArrowDownSFill className="dropdown-trigger" />
+            9º ano <RiArrowDownSFill />
             <div className="dropdown-ct">
               {nonoDados.map(item => {
                 const { id, url, text } = item;

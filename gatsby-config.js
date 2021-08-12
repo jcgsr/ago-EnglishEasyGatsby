@@ -23,6 +23,13 @@ module.exports = {
         path: `${__dirname}/nono-mdx`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `nono`,
+        path: `${__dirname}/oitavo-mdx`,
+      },
+    },
     `gatsby-plugin-mdx`,
   ],
 };
