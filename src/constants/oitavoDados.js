@@ -36,6 +36,16 @@ const oitavoDados = [
     url: "/anos/oitavo/quantifiers",
     text: "Quantifiers",
   },
+  {
+    id: 8,
+    url: "/anos/oitavo/countable",
+    text: "Countable and Uncountable Nouns",
+  },
+  {
+    id: 9,
+    url: "/anos/oitavo/usedto",
+    text: "Used to",
+  },
 ];
 
 export default oitavoDados;

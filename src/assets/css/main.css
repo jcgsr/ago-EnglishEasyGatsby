@@ -186,6 +186,9 @@ h1 {
   text-shadow: var(--shadow-3);
   font-size: var(--fontsizing-1);
 }
+h2 {
+  margin: 1rem auto;
+}
 a {
   text-decoration: none;
   color: var(--terciary);
@@ -212,12 +215,17 @@ li:hover,
 td,
 th,
 tr {
-  border: 1px solid red;
+  border: 1px solid var(--primary);
   padding: 1rem;
   text-align: left;
 }
 table {
   margin: 0 auto;
+}
+
+hr {
+  border-top: 1px solid var(--primary);
+  margin: 1rem auto;
 }
 
 /* TAGS */
