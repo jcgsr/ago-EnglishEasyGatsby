@@ -186,8 +186,10 @@ h1 {
   text-shadow: var(--shadow-3);
   font-size: var(--fontsizing-1);
 }
-h2 {
+h2,
+h3 {
   margin: 1rem auto;
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
