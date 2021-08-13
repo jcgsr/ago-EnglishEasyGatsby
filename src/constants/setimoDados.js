@@ -36,7 +36,7 @@ const setimoDados = [
   },
   {
     id: 8,
-    url: "/anos/setimo/pastcontinuous",
+    url: "/anos/setimo/past-continuous",
     text: "Past Continuous",
   },
 ];
