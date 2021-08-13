@@ -37,6 +37,13 @@ module.exports = {
         path: `${__dirname}/setimo-mdx`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `nono`,
+        path: `${__dirname}/sexto-mdx`,
+      },
+    },
     `gatsby-plugin-mdx`,
   ],
 };

@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import nonoDados from "../constants/nonoDados.js";
 import oitavoDados from "../constants/oitavoDados.js";
 import setimoDados from "../constants/setimoDados.js";
+import sextoDados from "../constants/sextoDados.js";
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
   return (
@@ -13,8 +14,18 @@ function Navbar() {
       </Link>
       <div className={`${showLinks ? "links-container" : "links-containerN"}`}>
         <ul>
-          <li>
+          <li className="dropdown">
             6º ano <RiArrowDownSFill />
+            <div className="dropdown-ct">
+              {sextoDados.map(item => {
+                const { id, url, text } = item;
+                return (
+                  <span key={id}>
+                    <Link to={url}>{text}</Link>
+                  </span>
+                );
+              })}
+            </div>
           </li>
           <li className="dropdown">
             7º ano <RiArrowDownSFill />
