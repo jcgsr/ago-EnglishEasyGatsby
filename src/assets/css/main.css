@@ -226,7 +226,11 @@ tr {
 table {
   margin: 1rem auto;
 }
-
+@media screen and (max-width: 456px) {
+  .card table {
+    font-size: 0.7rem;
+  }
+}
 hr {
   border-top: 1px solid var(--primary);
   margin: 1rem auto;
