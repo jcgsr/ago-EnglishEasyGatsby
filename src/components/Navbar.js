@@ -20,9 +20,9 @@ function Navbar() {
               {sextoDados.map(item => {
                 const { id, url, text } = item;
                 return (
-                  <span key={id}>
-                    <Link to={url}>{text}</Link>
-                  </span>
+                  <Link key={id} to={url}>
+                    <button>{text}</button>
+                  </Link>
                 );
               })}
             </div>
@@ -33,9 +33,9 @@ function Navbar() {
               {setimoDados.map(item => {
                 const { id, url, text } = item;
                 return (
-                  <span key={id}>
-                    <Link to={url}>{text}</Link>
-                  </span>
+                  <Link key={id} to={url}>
+                    <button>{text}</button>
+                  </Link>
                 );
               })}
             </div>
@@ -46,9 +46,9 @@ function Navbar() {
               {oitavoDados.map(item => {
                 const { id, url, text } = item;
                 return (
-                  <span key={id}>
-                    <Link to={url}>{text}</Link>
-                  </span>
+                  <Link key={id} to={url}>
+                    <button>{text}</button>
+                  </Link>
                 );
               })}
             </div>
@@ -59,9 +59,9 @@ function Navbar() {
               {nonoDados.map(item => {
                 const { id, url, text } = item;
                 return (
-                  <span key={id}>
-                    <Link to={url}>{text}</Link>
-                  </span>
+                  <Link key={id} to={url}>
+                    <button>{text}</button>
+                  </Link>
                 );
               })}
             </div>

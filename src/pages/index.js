@@ -2,6 +2,8 @@ import React from "react";
 
 import Layout from "../components/Layout";
 
+import { RiWhatsappFill, RiTelegramFill } from "react-icons/ri";
+
 import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
   return (
@@ -11,12 +13,27 @@ const Home = () => {
         <p>
           Site feito para servir de consulta rápida com relação aos principais
           tópicos gramaticais da língua inglesa do Ensino Fundamental Maior.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
+          Totalmente dedicado aos meus alunos idos, aos que são e aos que serão.
+          Se quiser dar alguma sugestão, fazer alguma crítica ou elogio, basta
+          entrar em contato pelo{" "}
+          <button>
+            <a href="https://api.whatsapp.com/send?phone=5579988284730&text=Opa! Gostaria de falar sobre English?! Easy...">
+              <RiWhatsappFill />
+            </a>
+          </button>{" "}
+          ou pelo{" "}
+          <button>
+            <a href="https://telegram.me/jcgsr">
+              <RiTelegramFill />
+            </a>
+          </button>{" "}
+          .
         </p>
+        <q>
+          O site em si mesmo é tudo; se te agradar, fino aluno, pago-me da
+          tarefa; se não te agradar, pago-te com um piparote, e até a próxima
+          aula.
+        </q>
       </section>
       <div id="brE-flag">
         <StaticImage
