@@ -32,7 +32,7 @@ const sextoDados = [
   {
     id: 7,
     url: "/anos/sexto/demonstratives",
-    text: "Demonstratives Pronouns",
+    text: "Demonstrative Pronouns",
   },
   {
     id: 8,
