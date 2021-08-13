@@ -9,6 +9,8 @@ const Home = () => {
       <h1>English?! Easy...</h1>
       <section id="site-desc">
         <p>
+          Site feito para servir de consulta rápida com relação aos principais
+          tópicos gramaticais da língua inglesa do Ensino Fundamental Maior.
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
