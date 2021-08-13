@@ -1,6 +1,7 @@
 import React from "react";
 
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 import { useStaticQuery, graphql } from "gatsby";
 
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
       <Navbar />
       {}
       {children}
+      <Footer />
     </>
   );
 };
