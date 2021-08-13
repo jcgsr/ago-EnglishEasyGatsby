@@ -4,6 +4,7 @@ import Layout from "../../../components/Layout";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { MDXProvider } from "@mdx-js/react";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const NonoAssuntos = ({
   data,
@@ -13,11 +14,13 @@ const NonoAssuntos = ({
     },
   },
 }) => {
+  const image = getImage(data.mdx.frontmatter.image);
   return (
     <MDXProvider>
       <Layout>
         <h1>{data.mdx.frontmatter.title}</h1>
         <div className="card">
+          <GatsbyImage image={image} alt={data.mdx.frontmatter.alt_image} />
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
         </div>
       </Layout>
@@ -31,6 +34,12 @@ export const query = graphql`
       frontmatter {
         title
         variant
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+          }
+        }
+        image_alt
       }
       body
     }
