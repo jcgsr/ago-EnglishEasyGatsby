@@ -11,7 +11,7 @@ module.exports = {
     description:
       "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior",
     siteUrl: "https://www.englisheasyfm.com.br",
-    image: `./src/assets/img/brEflag.jpg`,
+    image: `/brEflag.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

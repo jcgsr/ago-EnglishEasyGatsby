@@ -9,7 +9,10 @@ import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
   return (
     <Layout>
-      <SEO title="English?! Easy..." description="Home Page" />
+      <SEO
+        title="English?! Easy..."
+        description="Site sobre tópicos gramaticais da língua inglesa do 6º ao 9º"
+      />
       <h1>English?! Easy...</h1>
       <section id="site-desc">
         <p>

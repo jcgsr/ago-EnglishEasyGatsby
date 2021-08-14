@@ -7,7 +7,8 @@ import { Link } from "gatsby";
 const ErrorPage = () => {
   return (
     <Layout>
-      {/*<SEO title="Erro" />*/}
+      <SEO title="404" description="Essa página não existe" />
+
       <main className="error-page">
         <section>
           <h1>404</h1>
