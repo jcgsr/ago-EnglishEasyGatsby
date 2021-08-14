@@ -1,6 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout";
+import SEO from "../components/SEO";
 
 import { RiWhatsappFill, RiTelegramFill } from "react-icons/ri";
 
@@ -8,6 +9,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
   return (
     <Layout>
+      <SEO title="English?! Easy..." description="Home Page" />
       <h1>English?! Easy...</h1>
       <section id="site-desc">
         <p>

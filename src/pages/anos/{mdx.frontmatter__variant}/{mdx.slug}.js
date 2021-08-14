@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../../components/Layout";
+import SEO from "../../../components/SEO";
 
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
@@ -18,6 +19,10 @@ const NonoAssuntos = ({
   return (
     <MDXProvider>
       <Layout>
+        <SEO
+          title={data.mdx.frontmatter.title}
+          description={data.mdx.frontmatter.description}
+        />
         <h1>{data.mdx.frontmatter.title}</h1>
         <div className="card">
           <GatsbyImage image={image} alt={data.mdx.frontmatter.alt_image} />
@@ -29,10 +34,11 @@ const NonoAssuntos = ({
 };
 
 export const query = graphql`
-  query ($id: String) {
+  query($id: String) {
     mdx(id: { eq: $id }) {
       frontmatter {
         title
+        description
         variant
         image {
           childImageSharp {
