@@ -10,8 +10,10 @@ module.exports = {
     title: "English?! Easy...",
     description:
       "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior",
-    siteUrl: "https://www.englisheasyfm.com.br",
+    titleTemplate: `%s | English?! Easy...`,
+    url: "https://www.englisheasyfm.com.br",
     image: `/brEflag.jpg`,
+    twitterUsername: `@teufel8`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
