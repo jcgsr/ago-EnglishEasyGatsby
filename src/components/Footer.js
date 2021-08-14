@@ -7,6 +7,7 @@ const Footer = () => {
       <p>
         <strong>&copy; {new Date().getFullYear()} - English?! Easy...</strong>
       </p>
+      <p>Todos os direitos reservados</p>
     </footer>
   );
 };

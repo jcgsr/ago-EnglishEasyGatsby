@@ -47,6 +47,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-mdx`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
@@ -54,13 +55,6 @@ module.exports = {
         color: `white`,
         // Disable the loading spinner.
         showSpinner: false,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`spectral\:400,400i,700,700i`, `serif`],
-        display: "swap",
       },
     },
   ],

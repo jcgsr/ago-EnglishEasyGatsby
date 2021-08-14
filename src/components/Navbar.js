@@ -5,12 +5,20 @@ import nonoDados from "../constants/nonoDados.js";
 import oitavoDados from "../constants/oitavoDados.js";
 import setimoDados from "../constants/setimoDados.js";
 import sextoDados from "../constants/sextoDados.js";
+
+import logo from "../assets/img/logo.svg";
+
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
   return (
     <nav>
       <Link to="/">
-        <p>English?! Easy</p>
+        <img
+          src={logo}
+          alt="Logo do site"
+          style={{ height: "2.5rem" }}
+          id="logo"
+        />
       </Link>
       <div className={`${showLinks ? "links-container" : "links-containerN"}`}>
         <ul>
