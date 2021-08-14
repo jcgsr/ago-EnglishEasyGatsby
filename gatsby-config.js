@@ -47,5 +47,21 @@ module.exports = {
       },
     },
     `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `white`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`spectral\:400,400i,700,700i`, `serif`],
+        display: "swap",
+      },
+    },
   ],
 };

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* RESET */
 *,
 ::after,
@@ -210,6 +211,7 @@ body {
   background: var(--terciary);
   color: var(--primary);
   line-height: 1.75;
+  font-family: "Spectral", serif;
 }
 h1 {
   text-align: center;
