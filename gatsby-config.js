@@ -56,5 +56,11 @@ module.exports = {
         showSpinner: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2008019372085379`,
+      },
+    },
   ],
 };
