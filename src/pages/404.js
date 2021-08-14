@@ -1,13 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 import { Link } from "gatsby";
 
 const ErrorPage = () => {
   return (
     <Layout>
-      <SEO title="404" description="Essa página não existe" />
+      <Seo title="404" description="Essa página não existe" />
 
       <main className="error-page">
         <section>

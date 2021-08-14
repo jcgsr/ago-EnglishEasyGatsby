@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
 
 import { RiWhatsappFill, RiTelegramFill } from "react-icons/ri";
 
@@ -9,7 +9,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
   return (
     <Layout>
-      <SEO
+      <Seo
         title="English?! Easy..."
         description="Site sobre tópicos gramaticais da língua inglesa do 6º ao 9º"
       />

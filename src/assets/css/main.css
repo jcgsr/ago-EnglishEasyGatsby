@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* RESET */
 *,
@@ -212,7 +212,7 @@ body {
   background: var(--terciary);
   color: var(--primary);
   line-height: 1.75;
-  font-family: "Hind", sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
 }
 h1 {
   text-align: center;
