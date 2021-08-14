@@ -47,7 +47,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-mdx`,
-    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
