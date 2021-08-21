@@ -40,6 +40,26 @@ const Home = () => {
           aula.
         </q>
       </section>
+      <section id="disclaimer">
+        <p>
+          <strong>Disclaimer:</strong> Eu utilizei, primordialmente, dois livros
+          para consulta ao construir esse site. São eles:{" "}
+          <a href="https://issuu.com/editoraftd/docs/bridges-ingles-mp-6_divulgacao_59f2c8c6110c27">
+            Bridges
+          </a>{" "}
+          e{" "}
+          <a href="https://www.edocente.com.br/pnld/2020/obra/time-to-share-6-ano-saraiva/">
+            Time to Share
+          </a>
+          . Ambas as edições do 6º ao 9º ano obviamente. Se teu livro for
+          diferente desses que mencionei, há a possibilidade de que o assunto
+          que procuras estar em outro ano aqui no site. Ex.: estudo no 9º ano,
+          quero o assunto <i>Linking Words</i>, mas não há esse assunto aqui no
+          site... É porque esse assunto está coberto no 7º ano. Ficou claro?
+          Qualquer dúvida, novamente, só entrar em contato pelos meios acima
+          mencionados. Bons estudos!
+        </p>
+      </section>
       <div id="brE-flag">
         <StaticImage
           alt="Bandeira britânica"

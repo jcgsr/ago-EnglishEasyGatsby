@@ -41,7 +41,8 @@
   margin: 0 auto;
   text-align: center;
 }
-#site-desc {
+#site-desc,
+#disclaimer {
   width: 70%;
   margin: 1.5rem auto;
   text-align: center;
@@ -52,6 +53,7 @@
 #site-desc svg:hover {
   color: var(--terciary);
 }
+
 /* IDS */
 /* CLASSES */
 .nav-toggle {
@@ -235,7 +237,8 @@ a {
 }
 button,
 li,
-.btn {
+.btn,
+#disclaimer a {
   cursor: pointer;
   color: var(--primary);
   background-color: var(--terciary);
@@ -247,7 +250,8 @@ li,
 }
 button:hover,
 li:hover,
-.btn:hover {
+.btn:hover,
+#disclaimer a:hover {
   background-color: var(--secondary);
   color: var(--terciary);
   box-shadow: var(--shadow-1);
