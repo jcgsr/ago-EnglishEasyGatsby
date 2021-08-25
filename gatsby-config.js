@@ -8,10 +8,12 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "English?! Easy...",
+    titleTemplate: "%s | English?! Easy...",
     description:
       "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior",
-    siteUrl: "https://www.englisheasyfm.com.br",
-    image: `/brEflag.jpg`,
+    url: "https://www.englisheasyfm.com.br",
+    image: `/images/brEflag.jpg`,
+    twitterUsername: "@teufel8",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
