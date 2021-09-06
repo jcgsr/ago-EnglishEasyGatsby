@@ -24,10 +24,10 @@ const NonoAssuntos = ({
           description={data.mdx.frontmatter.description}
         />
         <h1>{data.mdx.frontmatter.title}</h1>
-        <div className="card">
+        <main className="card">
           <GatsbyImage image={image} alt={data.mdx.frontmatter.alt_image} />
           <MDXRenderer>{data.mdx.body}</MDXRenderer>
-        </div>
+        </main>
       </Layout>
     </MDXProvider>
   );

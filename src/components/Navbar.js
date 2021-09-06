@@ -74,6 +74,9 @@ function Navbar() {
               })}
             </div>
           </li>
+          <li id="calculadora">
+            <Link to="/calculadora">calculadora de média</Link>
+          </li>
         </ul>{" "}
       </div>
       <button onClick={() => setShowLinks(!showLinks)} className="nav-toggle">

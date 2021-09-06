@@ -53,7 +53,16 @@
 #site-desc svg:hover {
   color: var(--terciary);
 }
-
+#calculadora a {
+  color: var(--primary);
+}
+#calculadora a:hover {
+  color: var(--terciary);
+}
+#media-resul {
+  font-weight: bolder;
+  font-size: 3rem;
+}
 /* IDS */
 /* CLASSES */
 .nav-toggle {
@@ -185,6 +194,23 @@
   color: var(--terciary);
   margin-top: 1rem;
   padding-bottom: 1.5rem;
+}
+.calculadora-campo {
+  display: flex;
+  flex-direction: column;
+}
+.calculadora-campo input {
+  margin: 0.5rem auto;
+  text-align: center;
+  padding: 1.5rem;
+  width: 20%;
+  height: 2rem;
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 456px) {
+  .calculadora-campo input {
+    width: 30%;
+  }
 }
 /* CLASSES */
 /* TAGS */
