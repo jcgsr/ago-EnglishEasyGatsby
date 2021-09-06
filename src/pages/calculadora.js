@@ -13,7 +13,7 @@ const Calculadora = () => {
     <Layout>
       <Seo
         title="Calculadora de Média"
-        ddescription="Página pra calcular as médias escolares"
+        ddescription="Página para calcular as médias escolares"
       />
       <h1>Calculadora de Média</h1>
       <main className="card">
