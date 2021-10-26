@@ -49,6 +49,14 @@ module.exports = {
         path: `${__dirname}/sexto-mdx`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `nono`,
+        path: `${__dirname}/curso-mdx`,
+      },
+    },
+
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-nprogress`,

@@ -5,6 +5,7 @@ import nonoDados from "../constants/nonoDados.js";
 import oitavoDados from "../constants/oitavoDados.js";
 import setimoDados from "../constants/setimoDados.js";
 import sextoDados from "../constants/sextoDados.js";
+import cursoDados from "../constants/cursoDados.js";
 
 import logo from "../assets/img/logo.svg";
 
@@ -76,6 +77,19 @@ function Navbar() {
           </li>
           <li id="calculadora">
             <Link to="/calculadora">calculadora de média</Link>
+          </li>{" "}
+          <li className="dropdown">
+            Cursos
+            <div className="dropdown-ct">
+              {cursoDados.map(item => {
+                const { id, url, text } = item;
+                return (
+                  <Link key={id} to={url}>
+                    <button>{text}</button>
+                  </Link>
+                );
+              })}
+            </div>
           </li>
         </ul>{" "}
       </div>
