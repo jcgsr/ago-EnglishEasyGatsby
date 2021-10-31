@@ -11,7 +11,7 @@ const Home = () => {
     <Layout>
       <Seo
         title="English?! Easy..."
-        description="Site sobre tópicos gramaticais da língua inglesa do 6º ao 9º"
+        description="Site sobre tópicos gramaticais da língua inglesa do 6º ao 9º com um curso básico de Inglês Instrumental"
       />
       <h1>English?! Easy...</h1>
       <section id="site-desc">
