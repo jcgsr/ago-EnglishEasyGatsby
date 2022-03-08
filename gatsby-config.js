@@ -10,7 +10,7 @@ module.exports = {
     title: "English?! Easy...",
     titleTemplate: "%s | English?! Easy...",
     description:
-      "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior assim como um curso básico de Iinglês Instrumental",
+      "Site que reúne os principais tópicos da gramática inglesa referentes ao Ensino Fundamental Maior assim como um curso básico de Inglês Instrumental",
     siteUrl: "https://www.englisheasyfm.com.br",
     image: `/images/brEflag.jpg`,
     twitterUsername: "@teufel8",
