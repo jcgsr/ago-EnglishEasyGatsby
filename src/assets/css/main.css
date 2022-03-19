@@ -282,6 +282,12 @@ li:hover,
   color: var(--terciary);
   box-shadow: var(--shadow-1);
 }
+.btn-app a {
+  color: var(--primary);
+}
+.btn-app a:hover {
+  color: var(--terciary);
+}
 td,
 th,
 tr {

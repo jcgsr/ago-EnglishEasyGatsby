@@ -24,6 +24,19 @@ const Calculadora = () => {
           deixei as notas com <strong>0.0</strong> para não teres o trabalho de
           digitar 😁. Boa sorte!
         </p>
+        <p>
+          Ah, e se preferires, podes baixar o{" "}
+          <button className="btn-app">
+            {" "}
+            <a
+              target="_blank"
+              href="https://play.google.com/store/apps/details?id=com.jcgsr.mediaEscolar"
+            >
+              app
+            </a>{" "}
+          </button>{" "}
+          também 👍.
+        </p>
         <hr />
         <section className="calculadora-campo">
           <label>Nota 1: </label>
