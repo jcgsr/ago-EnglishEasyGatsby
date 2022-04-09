@@ -53,7 +53,7 @@ const Home = () => {
           </a>
           . Ambas as edições do 6º ao 9º ano obviamente. Se teu livro for
           diferente desses que mencionei, há a possibilidade de que o assunto
-          que procuras estar em outro ano aqui no site. Ex.: estudo no 9º ano,
+          que procuras esteja em outro ano aqui no site. Ex.: estudo no 9º ano,
           quero o assunto <i>Linking Words</i>, mas não há esse assunto aqui no
           site... É porque esse assunto está coberto no 7º ano. Ficou claro?
           Qualquer dúvida, novamente, só entrar em contato pelos meios acima
