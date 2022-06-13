@@ -3,7 +3,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
-import { RiWhatsappFill, RiTelegramFill } from "react-icons/ri";
+import { RiWhatsappFill, RiTelegramFill, RiAndroidFill } from "react-icons/ri";
 
 import { StaticImage } from "gatsby-plugin-image";
 const Home = () => {
@@ -19,8 +19,8 @@ const Home = () => {
           Site feito para servir de consulta rápida com relação aos principais
           tópicos gramaticais da língua inglesa do Ensino Fundamental Maior.
           Totalmente dedicado aos meus alunos idos, aos que são e aos que serão.
-          Se quiser dar alguma sugestão, fazer alguma crítica ou elogio, basta
-          entrar em contato pelo{" "}
+          Se quiseres dar alguma sugestão, fazer alguma crítica ou elogio, basta
+          entrares em contato pelo{" "}
           <button>
             <a href="https://api.whatsapp.com/send?phone=5579988284730&text=Opa! Gostaria de falar sobre English?! Easy...">
               <RiWhatsappFill />
@@ -30,6 +30,15 @@ const Home = () => {
           <button>
             <a href="https://telegram.me/jcgsr">
               <RiTelegramFill />
+            </a>
+          </button>{" "}
+          .
+        </p>
+        <p>
+          Caso prefiras estudar pelo app, basta baixá-lo aqui{" "}
+          <button>
+            <a href="https://play.google.com/store/apps/details?id=com.jcgsr.inglesFundamentalMaior">
+              <RiAndroidFill />
             </a>
           </button>{" "}
           .
