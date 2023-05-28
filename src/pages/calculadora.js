@@ -30,6 +30,7 @@ const Calculadora = () => {
             {" "}
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://play.google.com/store/apps/details?id=com.jcgsr.mediaEscolar"
             >
               app
